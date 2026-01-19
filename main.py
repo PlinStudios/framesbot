@@ -44,6 +44,9 @@ def make_video_list_step(root):
     global videos, length
     
     for ff in os.listdir(root):
+        if ff.startswith("_"):
+            continue
+            
         f = os.path.join(root, ff)
         print(f)
         if os.path.isdir(f):
@@ -156,6 +159,7 @@ async def change_pfp():
 async def before_change_pfp():
     await bot.wait_until_ready()
     print("scheduled task waiting for bot to be ready...")
+
 
 
 bot.run(TOKEN)
