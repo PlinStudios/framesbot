@@ -2,12 +2,13 @@
 A discord bot to show random frames from videos like [Azuframes](https://top.gg/bot/1219806220416843806)
 
 ## Features
-- deep searches a directory to finds all videos and images <br>
-- extract frames from videos on demand <br>
-- equally distributed possibilities to all frames (shorter videos are less likely to appear) <br>
-- changes pfp and banner to a random frame every 24 hours(can be configured) <br>
+- deep searches a directory to finds all videos and images
+- extract frames from videos on demand
+- equally distributed possibilities to all frames (shorter videos are less likely to appear)
+- changes pfp and banner to a random frame every 24 hours(can be configured)
 - uses rich presence to show a custom text and the frames command
 - with each response shows a custom text, the name of the video and the frame number
+- ignores files and directories starting with "_"
 
 # Usage
 Download source and install needed libs <br><br>
